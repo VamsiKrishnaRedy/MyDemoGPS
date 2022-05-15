@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativelayout1"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp"
+        android:outlineSpotShadowColor="#E6E6E6"
+
+        android:elevation="8dp"
+        android:layout_marginBottom="50dp"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route Number: 1"
+                android:id="@+id/routenumber"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative2"
+            android:layout_below="@+id/relative1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/from"
+                android:text="UPPAL"
+
+
+                android:layout_marginLeft="20dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_east_24"
+                android:id="@+id/directionarrow"
+                android:layout_toRightOf="@+id/from"
+                android:layout_marginLeft="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/to"
+                android:text="JBIET"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/directionarrow"
+
+
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/via"
+                android:text="FEVER HOSPITAL"
+                android:layout_below="@+id/from"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/via"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn_route"
+                android:text="VIEW FULL DETAILS"
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

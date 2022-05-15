@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378802016465",
+    "project_id": "mydemogps-5d868",
+    "storage_bucket": "mydemogps-5d868.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378802016465:android:c4841f0d83879c0f6d75f0",
+        "android_client_info": {
+          "package_name": "com.example.mydemogps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378802016465-bhp9d2ampck6k21r0pjo6d66ou0220st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv0w8QsvQu1U9cIq39Y2P-cCxllcCZLIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378802016465-bhp9d2ampck6k21r0pjo6d66ou0220st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
